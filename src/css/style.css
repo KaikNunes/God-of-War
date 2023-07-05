@@ -81,6 +81,7 @@ ul > li > img{
 .descricao-personagem{
     width: 33.854vw;
     font-family: 'Open Sans';
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .personagem-grande{
