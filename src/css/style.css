@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'berseker';
+    src: url(../font/Berserker-Regular.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'berseker';
+    color: white;
+    transition: 0.3s;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+  
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header > img{
+    width: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.personagens{
+
+    text-align: center;
+}
+
+.personagem:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+}
+
+.lista-de-personagens{
+    margin: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 30px;
+}
+
+ul > li > img{
+    width: 200px;
+}
+
+.personagem-selecionado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}  
+
+.informacoes-personagem{
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-personagem{
+    width: 650px;
+    font-family: 'Open Sans';
+}
+
+.personagem-grande{
+    width: 300px;
+}
