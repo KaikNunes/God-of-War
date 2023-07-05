@@ -34,7 +34,7 @@ header{
 }
 
 header > img{
-    width: 300px;
+    width: 15.625vw;
 }
 
 main{
@@ -57,12 +57,12 @@ main{
     margin: 30px;
     list-style: none;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    gap: 30px;
+    grid-template-columns: 10.417vw 10.417vw 10.417vw 10.417vw;
+    gap: 1.563vw;
 }
 
 ul > li > img{
-    width: 200px;
+    width: 10.417vw;
 }
 
 .personagem-selecionado {
@@ -79,10 +79,10 @@ ul > li > img{
 }
 
 .descricao-personagem{
-    width: 650px;
+    width: 33.854vw;
     font-family: 'Open Sans';
 }
 
 .personagem-grande{
-    width: 300px;
+    width: 15.625vw;
 }
