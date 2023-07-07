@@ -31,6 +31,7 @@ body {
 header{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 header > img{
@@ -40,16 +41,33 @@ header > img{
 main{
     display: flex;
     flex-direction: row;
+    min-height: calc(100vh - 170.25px);
+    justify-content: center;
+    gap: 200px;
 }
-
-.personagens{
-    text-align: center;
-}
+  
+  .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    max-width: 600px; /* Ajuste o valor conforme necessário */
+  }
+  
 
 .personagem:hover{
     cursor: pointer;
     transform: scale(1.03);
     box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+}
+
+.titulo{
+    border-bottom: 2px solid;
+    border-color: #FFFFFF;
+    text-transform: uppercase;
+    width: 80%;
+    text-align: center;
 }
 
 .lista-de-personagens{
@@ -73,14 +91,23 @@ ul > li > img{
 }  
 
 .informacoes-personagem{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.nome-personagem{
+    border-bottom: 2px solid;
+    border-color: #FFFFFF;
+    width: 50%;
+    text-align: center;
+}
+
 .descricao-personagem{
     width: 33.854vw;
+    margin-top: 20px;
     font-family: 'Open Sans';
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .personagem-grande{
