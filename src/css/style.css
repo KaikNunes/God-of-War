@@ -11,39 +11,39 @@
     transition: 0.3s;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: -1;
+body{
+    background-color: #000000;
 }
   
-body {
+body::before{
+    content: "";
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
 }
 
 header{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 header > img{
-    width: 15.625vw;
+    width: 370px;
 }
 
 main{
     display: flex;
     flex-direction: row;
-    min-height: calc(100vh - 170.25px);
+    min-height: calc(100vh - 15.74074074074074vh);
     justify-content: center;
-    gap: 200px;
+    gap: 18.51851851851852vh;
 }
   
   .personagens {
@@ -52,7 +52,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: 30px;
-    max-width: 600px; /* Ajuste o valor conforme necessário */
+    max-width: 600px;
   }
   
 
@@ -112,4 +112,91 @@ ul > li > img{
 
 .personagem-grande{
     width: 15.625vw;
+}
+
+@media (max-width: 1120px){
+    header > img{
+        width: 300px;
+    }
+
+    h1, h2{
+        font-size: 20px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        min-height: calc(100vh - 200px);
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .lista-de-personagens img{
+        width: 150px;
+    }
+
+    .lista-de-personagens{
+        grid-template-columns: 10.417vw 10.417vw 10.417vw 10.417vw;
+        gap: 50px;
+    }
+
+    .descricao-personagem{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+
+    header > img{
+        width: 200px;
+        margin-top: -20px;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .descricao-personagem{
+        width: 100%;
+    }
+
+    .titulo{
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    .lista-de-personagens img{
+        width: 130px;
+    }
+
+    .personagem-grande{
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .descricao-personagem{
+        width: 90%;
+    }
+
+    .titulo{
+        font-size: 16px;
+    }
+
+    .lista-de-personagens{
+        margin-left: -10px;
+    }
+
+    .lista-de-personagens img{
+        width: 90px;
+    }
+
+    .personagem-grande{
+        width: 110px;
+    }
+
 }
