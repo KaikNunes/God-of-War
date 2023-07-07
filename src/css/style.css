@@ -114,6 +114,13 @@ ul > li > img{
     width: 15.625vw;
 }
 
+@media (max-width: 1366px){
+    header > img{
+        width: 250px;
+        margin-top: -30px;
+    }
+}
+
 @media (max-width: 1120px){
     header > img{
         width: 300px;
