@@ -94,6 +94,8 @@ ul > li > img{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-left: 50px;
+    margin-right: -100px;
 }  
 
 .informacoes-personagem{
