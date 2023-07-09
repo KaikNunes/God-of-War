@@ -1,5 +1,7 @@
 # Escolha de Personagens | God of War Ragnarok
 
+<img src="https://gangnft.com/wp-content/uploads/2021/09/378c0d547c12c3f2fc6d802e2ce76c66.gif" width="60"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/8dQVbhWlysHU7eAp7By7VXIA.png" alt="Linha de código detalhando o evento click utilizado" width="200">
+
 ## Resumo
 
 Este repositório representa meu trabalho colaborativo no projeto do canal [Dev em Dobro](https://www.instagram.com/devemdobro/), onde pude exercitar minhas habilidades de desenvolvimento web utilizando HTML, CSS e Javascript. É um projeto que reflete minha paixão pelo jogo God of War Ragnarok e minha criatividade em adaptar o conceito original para algo que me traz ainda mais interesse e envolvimento.
@@ -29,3 +31,11 @@ No projeto, adotei a abordagem de utilizar o evento __click__ em vez do evento _
 <img src="./src/private/gif.gif" alt="Gif mostrando o funcionamento" width="500">
 
 Neste GIF animado, você pode conferir o projeto em pleno funcionamento. Ele mostra as interações e recursos implementados, oferecendo uma visão geral da experiência proporcionada pelo projeto.
+
+## Acesse o Projeto
+
+Você pode acessar e interagir com o projeto através do GitHub Pages. Clique no link abaixo para experimentar:
+
+[https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
+
+Certifique-se de conferir e explorar todas as funcionalidades disponíveis no projeto.
