@@ -116,9 +116,9 @@ ul > li > img{
     font-family: 'Open Sans';
 }
 
-.personagem-grande{
-    width: 15.625vw;
-}
+/* .personagem-grande{
+    width: 330px;
+} */
 
 @media (max-width: 1366px){
     header > img{
