@@ -39,3 +39,7 @@ Você pode acessar e interagir com o projeto através do GitHub Pages. Clique no
 [https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
 
 Certifique-se de conferir e explorar todas as funcionalidades disponíveis no projeto.
+
+Agradeço por dedicar seu tempo para visitar o repositório do projeto. Espero que tenha encontrado as informações e recursos apresentados úteis e interessantes.
+
+Fico feliz em compartilhar meu trabalho e conhecimento com a comunidade de desenvolvedores. Se tiver alguma dúvida, sugestão ou feedback, não hesite em entrar em contato.
