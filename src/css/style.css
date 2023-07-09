@@ -118,9 +118,6 @@ ul > li > img{
     font-family: 'Open Sans';
 }
 
-/* .personagem-grande{
-    width: 330px;
-} */
 
 @media (max-width: 1366px){
     header > img{
@@ -153,6 +150,10 @@ ul > li > img{
     .lista-de-personagens{
         grid-template-columns: 10.417vw 10.417vw 10.417vw 10.417vw;
         gap: 50px;
+    }
+
+    .personagem{
+        width: 10.417vw;
     }
 
     .descricao-personagem{
