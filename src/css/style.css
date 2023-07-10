@@ -218,21 +218,20 @@ ul > li > img{
     }
 
     .lista-de-personagens{
-        grid-template-columns: 90px 90px 90px 90px;
+        grid-template-columns: 80px 80px 80px 80px;
         gap: 10px;
     }
 
     .lista-de-personagens img{
-        width: 90px;
+        width: 80px;
     }
 
     .personagem{
-        width: 90px;
+        width: 80px;
     }
 
     .personagem-grande{
         width: 200px;
     }
-    
 
 }
