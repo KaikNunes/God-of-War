@@ -24,8 +24,8 @@ Ao escolher adaptar o projeto original de escolha de personagens do X-Men para o
 
 Explorei a rica mitologia nórdica, os personagens icônicos e o visual impressionante do jogo para criar uma experiência imersiva e atraente para os usuários.
 
-<img src="./src/private/print-original.PNG" alt="Print do projeto original Dev em Dobro" width="500"> <img src="./src/private/print.PNG" alt="Print do projeto modificado por mim" width="500">
-*(Projeto original a esquerda | Projeto realizado por mim a direita)*
+<img src="./src/private/print-original.PNG" alt="Print do projeto original Dev em Dobro" width="400"> <img src="./src/private/print.PNG" alt="Print do projeto modificado por mim" width="400">
+
 ***
 
 ### Evento 'click'
