@@ -42,7 +42,7 @@ Neste GIF animado, você pode conferir o projeto em pleno funcionamento. Ele mos
 
 Você pode acessar e interagir com o projeto através do GitHub Pages. Clique no link abaixo para experimentar:
 
-[https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
+➜ [https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
 
 Certifique-se de conferir e explorar todas as funcionalidades disponíveis no projeto.
 
