@@ -234,4 +234,7 @@ ul > li > img{
         width: 200px;
     }
 
+    .descricao-personagem{
+        font-size: 13px;
+    }
 }
