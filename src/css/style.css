@@ -119,10 +119,19 @@ ul > li > img{
 }
 
 
-@media (max-width: 1366px){
+@media (max-width: 1367px){
     header > img{
         width: 250px;
         margin-top: -30px;
+    }
+
+    .personagem-selecionado {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .personagem-grande{
+        width: 350px;
     }
 }
 
@@ -148,12 +157,12 @@ ul > li > img{
     }
 
     .lista-de-personagens{
-        grid-template-columns: 10.417vw 10.417vw 10.417vw 10.417vw;
-        gap: 50px;
+        grid-template-columns: 90px 90px 90px 90px;
+        gap: 70px;
     }
 
     .personagem{
-        width: 10.417vw;
+        width: 150px;
     }
 
     .descricao-personagem{
@@ -187,8 +196,13 @@ ul > li > img{
         width: 130px;
     }
 
+    .personagem{
+        width: 130px;
+    }
+
     .personagem-grande{
         margin-top: 30px;
+        width: 250px;
     }
     
 }
@@ -204,7 +218,6 @@ ul > li > img{
     }
 
     .lista-de-personagens{
-        /* margin-left: -10px; */
         grid-template-columns: 90px 90px 90px 90px;
         gap: 10px;
     }
@@ -213,8 +226,13 @@ ul > li > img{
         width: 90px;
     }
 
-    .personagem-grande{
-        width: 110px;
+    .personagem{
+        width: 90px;
     }
+
+    .personagem-grande{
+        width: 200px;
+    }
+    
 
 }
