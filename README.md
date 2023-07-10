@@ -26,6 +26,12 @@ No projeto, adotei a abordagem de utilizar o evento __click__ em vez do evento _
 
 <img src="./src/private/click.png" alt="Linha de código detalhando o evento click utilizado" width="500">
 
+Outro diferencial importante deste projeto é a utilização do __grid__ para criar um layout flexível. Diferentemente do uso de __flex-wrap__ no projeto original, optei por explorar as capacidades do grid para criar um layout mais organizado e responsivo.
+
+Ao empregar os conceitos de grid, consegui obter maior flexibilidade e controle na estrutura do projeto, resultando em um layout adaptável em diferentes dispositivos e tamanhos de tela.
+
+<img src="./src/private/grid.png" alt="Linha de código detalhando o uso do grid" width="500">
+
 ## Veja o funcionamento!
 
 <img src="./src/private/gif.gif" alt="Gif mostrando o funcionamento" width="500">
@@ -36,7 +42,7 @@ Neste GIF animado, você pode conferir o projeto em pleno funcionamento. Ele mos
 
 Você pode acessar e interagir com o projeto através do GitHub Pages. Clique no link abaixo para experimentar:
 
-[https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
+➜ [https://kaiknunes.github.io/God-of-War/](https://kaiknunes.github.io/God-of-War/)
 
 Certifique-se de conferir e explorar todas as funcionalidades disponíveis no projeto.
 
